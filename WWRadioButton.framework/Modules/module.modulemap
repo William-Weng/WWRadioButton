@@ -1,0 +1,11 @@
+framework module WWRadioButton {
+  umbrella header "WWRadioButton.h"
+
+  export *
+  module * { export * }
+}
+
+module WWRadioButton.Swift {
+    header "WWRadioButton-Swift.h"
+    requires objc
+}
